@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(55deg, #005de0, #0c014a);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Anton', sans-serif;
+}
+
+#game{
+    display: flex;
+    background: linear-gradient(55deg, #0c014a, #005de0);
+    padding: 20px 50px;
+    border-radius: 2px;
+    border-right: 10px solid rgb(19,19,160);
+    border-left: 10px solid rgb(11,11,91);
+    border-top: 10px solid rgb(1,61,200);
+    border-bottom: 10px solid rgb(20,20,89);
+}
+
+.card{
+    display: grid;
+    width: 200px;
+    height: 120px;
+    background-color: rgb(26, 26, 255);
+    border-left: 10px solid rgb(19,19,160);
+    border-right: 10px solid rgb(11,11,91);
+    border-top: 10px solid rgb(1,61,200);
+    border-bottom: 10px solid rgb(20,20,89);
+    text-align: center;
+    justify-items: center;
+    font-size: 100px;
+    margin: 10px;
+    padding: 20px 10px;
+    line-height: 120px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.first-button{
+    background-color: #18ab18;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.second-button{
+    background-color: #be3925;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.first-button:hover{
+    background-color: #098b09;
+}
+.second-button:hover{
+    background-color: #942716;
+}
+
+.first-button:active{
+    background-color: #044a04;
+    color: #7eaa87;
+}
+.second-button:active{
+    background-color: #571106;
+    color: #9c7a7a;
+}
+
+.genre-title{
+    background: linear-gradient(55deg, #005de0, #0c014a);
+    text-align: center;
+    box-shadow: 0 0 20px 5px #000;
+    font-size: 28px;
+    padding: 15px;
+    margin: 5px 5px 20px;
+    border-radius: 50%;
+}
+
+.buttonsContainer{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.correct-answer{
+    background-color: #66ba18;
+}
+
+.wrong-answer{
+    background-color: #dd4038;
+}
+
+.score{
+    font-size: 36px;
+}
+
+.title{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
